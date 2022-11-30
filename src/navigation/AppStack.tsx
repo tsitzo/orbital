@@ -44,6 +44,7 @@ export const AppStack = () => {
       <Stack.Screen
         name="LaunchDetailsScreen"
         component={LaunchDetailsScreen}
+        options={{ title: "" }}
       />
       <Stack.Screen name="PadDetailsScreen" component={PadDetailsScreen} />
       <Stack.Screen
