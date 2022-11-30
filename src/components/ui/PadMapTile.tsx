@@ -46,7 +46,7 @@ const PadMapTile: FC<IPadMapTileProps> = ({ pad, onPress }) => {
           </MapView>
         </TouchableOpacity>
       )}
-      <TouchableOpacity style={styles.mapTileLower}>
+      <TouchableOpacity style={styles.mapTileLower} onPress={onPress}>
         <View style={[styles.mapTileLeft]}>
           <View style={styles.mapTileLabelRow}>
             <View style={[styles.rect, { backgroundColor: colors.primary }]} />
